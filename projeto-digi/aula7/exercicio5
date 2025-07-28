@@ -1,0 +1,13 @@
+//larissa só vai sair se n estiver chovendo e ela tiver guarda-chuva
+//estar chovendo = true > tem q ter guarda-chuva
+//larrista ve que esta chovendo e ela n tem gaurda-chuva
+//larissa n vai sair 
+
+let chuva = true;
+let guardaChuva = false;
+
+if (chuva && guardaChuva) {
+    console.log('Larissa saiu')
+} else {
+    console.log('Larissa n saiu')
+}
